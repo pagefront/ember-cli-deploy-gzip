@@ -20,7 +20,7 @@ module.exports = {
     var DeployPlugin = DeployPluginBase.extend({
       name: options.name,
       defaultConfig: {
-        filePattern: '**/*.!(html)',
+        filePattern: '*',
         zopfli: false,
         keep: false,
         distDir: function(context){
