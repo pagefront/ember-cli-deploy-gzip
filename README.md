@@ -56,7 +56,7 @@ For detailed information on how configuration of plugins works, please refer to 
 
 Files matching this pattern will be gzipped.
 
-*Default:* `'*'`
+*Default:* `'**/!(*.html)'`
 
 ### distDir
 
